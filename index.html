@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+    <title>Restaurant website</title>
+</head>
+<body>
+    <header>
+        <img src="https://zupimages.net/up/22/33/ba7t.png" alt="Logo du site web">
+        <nav>
+          <a href="" class="menu-burger-responsive"><i class="fa-solid fa-bars"></i></a>
+            <div class="menu1">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>  
+                <a class="number" href="tel:06 59 49 39 29">06 59 49 39 29</a>
+                <button>Réservez votre table</button> 
+            </div>
+            
+            <div class="menu2">
+                <a href="#">Le Restaurant</a><a href="#">La carte</a>
+                <a href="#">Actualité</a><a href="#">Contact</a>
+            </div>
+        </nav>
+        
+
+    </header>
+
+
+
+    <div>
+      <div class="carousel">
+        <ul class="slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="Images/plat1.jpeg">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="Images/plat2.png">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="Images/plat3.jpg">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+
+
+<!-- <section class="carousel" aria-label="Gallery">
+
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <img src="Images/plat1.jpeg" alt="">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <img src="Images/plat2.png" alt="">
+      </div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <img src="Images/img1restaurant.jpg" alt="">
+      </div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <img src="Images/img2Restaurant.jpg" alt="">
+      </div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+
+
+
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+<section class="titles-images"> -->
+
+    <div class="container-fisrt-title-image">
+        <div>
+
+            <h2>Venez manger chez nous</h2>
+            <h3>"Le secret d'un bon resto, commence par une bonne ambiance"</h3>
+            <p>Si il vous tente de venir par chez nous, manger un de nos succulent plat,</br> réserver à l'avance et nous nous feront un plaisir de vous recevoir !</p>
+            <button>Le restaurant</button>
+            <button>La carte</button></br>
+        <img src="Images/98017.png" alt="logo nimporte">
+        </div>   
+            <img src="Images/la-fourchette-l-equipe-parfaite-dans-la-gestion-d-un-restaurant-cuisine.jpg" alt="image à cote de mon texte qui montre l'equipe du resto"> 
+    </div>
+    <div class="container-second-title-image">
+      <div class="quote">
+    <h3>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A exercitationem doloremque incidunt nesciunt? Odit a necessitatibus eligendi odio commodi delectus quo 
+        voluptates illo, possimus quod quos vel dolores voluptas fugit!"</h3>
+        <span>Hugo LERIGOLO</span>
+      </div>
+    
+        <img src="Images/DSC_0455-l-1080x675.jpg" alt="">
+    </div>
+</section>
+
+
+
+<div class="test">
+<div class="container-imgs-titles">
+    <div class="imgs">
+          <img src="Images/photo1.jpg" alt="photo1">
+          <img src="Images/photo-2.jpg" alt="photo2">
+          <img src="Images/photo3.jpg" alt="photo3">
+    </div>
+
+
+      <h2 class="h2-title">Dernières actualités<span class="span-h2-title">du restaurant racines</span></h2>
+
+      <h3 class="h3-title">Vendredi 30 octobre 2023<span class="span-h3-title">Vente à emporter</span></h3>
+
+      <p class="first-p">La vente à emporter reprend du service :</p>
+      <p class="second-p">Vous pouvez désormais commander sur : https://lesiteesttropbienvraiment.com/</p>
+      <p class="third-p">Les menus sont en ligne sur les réseaux sociaux !</p>
+      <a href="#">Lire la suite ></a>
+
+      <button>Toutes les actualités</button>
+    
+</div>
+</div>
+
+
+
+
+
+
+  <footer>
+
+    <div class="container-footer">
+
+      <div class="small-container1">
+        <h2>Restaurant Racines</h2>
+        <p>4 rue du peuplier à Arras</p>
+        <a href="tel: 06 15 07 29 31">06 15 07 29 31</a>
+        <button>Nous contacter</button>
+      <div>
+        <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" ><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" ><i class="fa-brands fa-google"></i></a>
+      </div>
+    </div>
+
+      <div class="small-container2">
+        <h2>Horaires d'ouverture</h2>
+        <p>Nous vous accueillons midi et soir tous les jours, <br>sauf le samedi midi, dimanche et lundi</p>
+        <p>Le restaurant ne propose de carte cadeau</p>
+        <img src="Images/biswap-bsw-logo-86873328D3-seeklogo.com.png" alt="logo image de biswap logo">
+      </div>
+
+      <div class="small-container3">
+        <h2>Neswsletter</h2>
+        <p>Inscrivez vous et recevez par mail <br>les dernières informations du restaurant racines </p>
+        <button>S'inscrire</button>
+      </div>
+  
+    </div>
+<div class="footer-down">
+    <nav class="a">
+      <ul>
+      <a href="#"><li>Accueil</li></a>
+      <a href="#"><li>Mentions légales</li></a>
+      <a href="#"><li>Plan du site</li></a>
+    </ul>
+    </nav>
+    <p>&copy; 2015 RapidTables.com</p>
+  </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!--  <div class="container-slider">
+
+        <div class="slides">
+            <img src="https://zupimages.net/up/22/33/m0c4.jpg" alt="photo restaurant 1" id="img1">
+            <img src="https://zupimages.net/up/22/33/7ps9.jpg" alt="photo restaurant 2" id="img2">
+            <img src="https://zupimages.net/up/22/33/vuc2.jpeg" alt="plat 1" id="img3">
+            <img src="https://zupimages.net/up/22/33/z2yn.png" alt="plat 2" id="img4">
+            <img src="https://zupimages.net/up/22/33/vza2.jpg" alt="plat 3" id="img5"> 
+        
+         
+
+   <a href="#img5" class=""><i class="fa-solid fa-arrow-left"></i></a>
+   <a href="#img2" class=""><i class="fa-solid fa-arrow-right"></i></a>
+   <a href="#img1" class=""><i class="fa-solid fa-arrow-left"></i></a>
+   <a href="#img3" class=""><i class="fa-solid fa-arrow-right"></i></a>
+   <a href="#img2" class=""><i class="fa-solid fa-arrow-left"></i></a>
+   <a href="#img4" class=""><i class="fa-solid fa-arrow-right"></i></a>
+   <a href="#img3" class=""><i class="fa-solid fa-arrow-left"></i></a>
+   <a href="#img5" class=""><i class="fa-solid fa-arrow-right"></i></a>
+   <a href="#img4" class=""><i class="fa-solid fa-arrow-left"></i></a>
+   <a href="#img1" class=""><i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+</div>-->
+
+</body>
+</html>
